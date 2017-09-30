@@ -1,0 +1,16 @@
+syntax on
+set tabstop=2
+set softtabstop=0 expandtab
+set shiftwidth=2
+set hlsearch
+noremap <leader>e :edit %:h<cr>
+noremap <leader>pp :set paste<cr>
+noremap <leader>pk :set nopaste<cr>
+noremap <leader>rc :source ~/.vimrc<cr>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+noremap ,, <esc>:w!<cr>
+noremap <leader>ag :Ag 
+noremap ff :resize 100 <cr> <bar> :vertical resize 220<cr>
